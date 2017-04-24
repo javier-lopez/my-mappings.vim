@@ -1,0 +1,70 @@
+*my-vim-mappings*                                             My global defaults
+
+==============================================================================
+CONTENTS                                                 *MyVimMappingsContents*
+
+    1. Intro ........................... |MyVimMappingsIntro|
+    2. Usage ........................... |MyVimMappingsUsage|
+    3. Configuration ................... |MyVimMappingsConfig|
+    4. Bugs ............................ |MyVimMappingsBugs|
+    5. Contributing .................... |MyVimMappingsContributing|
+    6. Changelog ....................... |MyVimMappingsChangelog|
+    7. Credits ......................... |MyVimMappingsCredits|
+
+==============================================================================
+INTRO                                                       *MyVimMappingsIntro*
+
+my-vim-mappings is a global plugin who set preferences according to they way I
+use [vim](http://vim.org). It sets highly opinionated settings. Probably not
+something you would like to use straight ahead.
+
+==============================================================================
+USAGE                                                       *MyVimMappingsUsage*
+
+Add. >
+
+        Bundle 'chilicuil/my-vim-mappings'
+<
+To your $VIMRC file and run inside of vim: >
+
+        :BundleInstall
+<
+The plugin will activate upon vim reload.
+
+==============================================================================
+CONFIGURATION                                              *MyVimMappingsConfig*
+
+No configuration options so far.
+
+==============================================================================
+BUGS                                                         *MyVimMappingsBugs*
+
+If you find a bug please post it on the issue tracker:
+
+    https://github.com/chilicuil/my-vim-mappings/issues
+
+==============================================================================
+CONTRIBUTING                                         *MyVimMappingsContributing*
+
+I created this plugin in an effort for cleaning up my chaotic vimrc > 1200 LOC!
+It does everything I need, if you use it and require something else, the best
+way to get it is to fork the repository, if you feel especially charitable,
+feel free to send your changes.
+
+GitHub: http://github.com/chilicuil/my-vim-mappings/
+
+==============================================================================
+CHANGELOG                                               *MyVimMappingsChangelog*
+
+v0.0.1
+    * Initial release.
+
+==============================================================================
+CREDITS                                                   *MyVimMappingsCredits*
+
+Enhancements has been made by the following people:
+
+    * Your name,   https://github.com/your-name
+
+==============================================================================
+" vim: ft=help
