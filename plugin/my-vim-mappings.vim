@@ -52,6 +52,7 @@ noremap <silent><leader>- :resize -1<cr>
 
 "clear highlighted searches
 nmap <silent> <leader>/   :nohlsearch<cr>
+nnoremap <silent> <c-l> :<c-u>nohlsearch<cr><c-l>
 
 "use the repeat operator with a visual selection
 vnoremap <leader>. :normal .<cr>
