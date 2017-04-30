@@ -1,4 +1,4 @@
-*my-vim-mappings*                                             My global defaults
+*my-mappings.vim*                                             My global defaults
 
 ==============================================================================
 CONTENTS                                                 *MyVimMappingsContents*
@@ -14,7 +14,7 @@ CONTENTS                                                 *MyVimMappingsContents*
 ==============================================================================
 INTRO                                                       *MyVimMappingsIntro*
 
-my-vim-mappings is a global plugin who set preferences according to they way I
+my-mappings.vim is a global plugin who set preferences according to they way I
 use [vim](http://vim.org). It sets highly opinionated settings. Probably not
 something you would like to use straight ahead.
 
@@ -23,7 +23,7 @@ USAGE                                                       *MyVimMappingsUsage*
 
 Add. >
 
-        Bundle 'chilicuil/my-vim-mappings'
+        Bundle 'chilicuil/my-mappings.vim'
 <
 To your $VIMRC file and run inside of vim: >
 
@@ -41,7 +41,7 @@ BUGS                                                         *MyVimMappingsBugs*
 
 If you find a bug please post it on the issue tracker:
 
-    https://github.com/chilicuil/my-vim-mappings/issues
+    https://github.com/chilicuil/my-mappings.vim/issues
 
 ==============================================================================
 CONTRIBUTING                                         *MyVimMappingsContributing*
@@ -51,7 +51,7 @@ It does everything I need, if you use it and require something else, the best
 way to get it is to fork the repository, if you feel especially charitable,
 feel free to send your changes.
 
-GitHub: http://github.com/chilicuil/my-vim-mappings/
+GitHub: http://github.com/chilicuil/my-mappings.vim/
 
 ==============================================================================
 CHANGELOG                                               *MyVimMappingsChangelog*

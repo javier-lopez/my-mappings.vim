@@ -1,14 +1,14 @@
 " ============================================================================
-" File:        my-vim-mappings.vim
+" File:        my-mappings.vim.vim
 " Description: default global vim settings
 " Maintainer:  Javier Lopez <m@javier.io>
 " ============================================================================
 
-if exists('g:loaded_my_vim_mappings') || &cp
-  finish
-endif
+"if exists('g:loaded_my_vim_mappings') || &cp
+  "finish
+"endif
 
-let g:loaded_my_vim_mappings = 1
+"let g:loaded_my_vim_mappings = 1
 
 "=== Ctrl Mappings===
 "windows

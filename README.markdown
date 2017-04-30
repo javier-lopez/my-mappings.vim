@@ -1,4 +1,4 @@
-[my-vim-mappings](https://github.com/chilicuil/my-vim-mappings) is a global plugin who set mappings according to they way I use [vim](http://vim.org). It sets highly opinionated settings. Probably not something you would like to use straight ahead. Some of the features are:
+[my-mappings.vim](https://github.com/chilicuil/my-mappings.vim) is a global plugin who set mappings according to they way I use [vim](http://vim.org). It sets highly opinionated settings. Probably not something you would like to use straight ahead. Some of the features are:
 
 - `Ctrl-[hjkl]` to move between panes
 - `,` as map leader
@@ -18,7 +18,7 @@ Installation
 
 - [Vundle](https://github.com/gmarik/vundle) way (recommended), add the following to your $HOME/.vimrc file:
 
-        Bundle 'chilicuil/my-vim-mappings'
+        Bundle 'chilicuil/my-mappings.vim'
 
     And run inside of vim:
 
@@ -26,12 +26,12 @@ Installation
 
 - [Pathogen](https://github.com/tpope/vim-pathogen) way:
 
-        $ git clone https://github.com/chilicuil/my-vim-mappings.git ~/.vim/bundle/my-vim-mappings
+        $ git clone https://github.com/chilicuil/my-mappings.vim.git ~/.vim/bundle/my-mappings.vim
 
 - **Manual** (simplest if you've never heard of vundle or pathogen), download the zip file generated from github and extract it to $HOME/.vim
 
-        mv my-vim-mappings*.zip $HOME/.vim
-        cd $HOME/.vim && unzip my-vim-mappings*.zip
+        mv my-mappings.vim*.zip $HOME/.vim
+        cd $HOME/.vim && unzip my-mappings.vim*.zip
 
     Update the help tags from vim:
 

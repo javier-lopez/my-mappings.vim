@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-zip -r my-vim-mappings.zip autoload/ doc/ plugin/ README.markdown
+zip -r my-mappings.vim.zip autoload/ doc/ plugin/ README.markdown
