@@ -102,6 +102,10 @@ noremap SS :%!sudo tee > /dev/null %<cr>
 "nnoremap ygl :<C-u><C-r>=getline('.')<cr><cr>
 "ZZ :wq!
 
+"repeat the last substitution without resetting the used flags
+nnoremap & :&&<CR>
+xnoremap & :&&<CR>
+
 "overwrite these annoying commands
 cnoreabbrev <expr> W ((getcmdtype() is# ':' && getcmdline() is# 'W')?('w'):('W'))
 "cabbr W w
