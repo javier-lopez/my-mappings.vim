@@ -23,7 +23,7 @@ USAGE                                                       *MyVimMappingsUsage*
 
 Add. >
 
-        Bundle 'chilicuil/my-mappings.vim'
+        Bundle 'javier-lopez/my-mappings.vim'
 <
 To your $VIMRC file and run inside of vim: >
 
@@ -41,7 +41,7 @@ BUGS                                                         *MyVimMappingsBugs*
 
 If you find a bug please post it on the issue tracker:
 
-    https://github.com/chilicuil/my-mappings.vim/issues
+    https://github.com/javier-lopez/my-mappings.vim/issues
 
 ==============================================================================
 CONTRIBUTING                                         *MyVimMappingsContributing*
@@ -51,7 +51,7 @@ It does everything I need, if you use it and require something else, the best
 way to get it is to fork the repository, if you feel especially charitable,
 feel free to send your changes.
 
-GitHub: http://github.com/chilicuil/my-mappings.vim/
+GitHub: http://github.com/javier-lopez/my-mappings.vim/
 
 ==============================================================================
 CHANGELOG                                               *MyVimMappingsChangelog*
