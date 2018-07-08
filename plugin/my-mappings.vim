@@ -26,8 +26,10 @@ map <c-t> <esc>:tabnew<cr>
 map <c-tab> :tabnext<cr>
 map <c-s-tab> :tabprevious<cr>
 map [6^ :tabnext<cr>
+map <c-PageUp> :tabnext<cr>
 map [5^ :tabprevious<cr>
-map <c-w> :tabclose <cr>
+map <c-PageDown> :tabprevious<cr>
+"map <c-w> :tabclose <cr>
 
 "exit
 map <c-x> :confirm qall<cr>
@@ -36,10 +38,10 @@ map <c-x> :confirm qall<cr>
 let mapleader = ","
 
 "m'ake
-map <silent> <leader>m :make<cr>
+map <silent><leader>m :make<cr>
 
 "toggle numbering
-map <silent> <leader>1 :set number!<cr>
+map <silent><leader>1 :set number!<cr>
 
 "reload ~/.vimrc
 map <leader>r :source $MYVIMRC<cr>
@@ -51,7 +53,7 @@ noremap <silent><leader>+ :resize +1<cr>
 noremap <silent><leader>- :resize -1<cr>
 
 "clear highlighted searches
-nmap <silent> <leader>/   :nohlsearch<cr>:redraw!<cr>
+nmap <silent><leader>/   :nohlsearch<cr>:redraw!<cr>
 
 "use the repeat operator with a visual selection
 vnoremap <leader>. :normal .<cr>
@@ -60,11 +62,11 @@ vnoremap <leader>. :normal .<cr>
 vnoremap <leader>@ :normal @
 
 "=== Tab Mappings ===
-map <tab>c :cc<cr>
-map <tab>n :cnext<cr>
-map <tab>p :cprevious<cr>
-"move between buffers
-map <tab><space> :bnext<cr>
+"map <tab>c :cc<cr>
+"map <tab>n :cnext<cr>
+"map <tab>p :cprevious<cr>
+""move between buffers
+"map <tab><space> :bnext<cr>
 
 "=== Misc Mappings===
 "let's switch these
